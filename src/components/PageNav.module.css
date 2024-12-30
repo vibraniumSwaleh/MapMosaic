@@ -1,0 +1,13 @@
+.nav {
+  background-color: #e6b7b7;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+}
