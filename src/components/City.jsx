@@ -25,7 +25,14 @@ function City() {
 
   const { cityName, emoji, date, notes } = currentCity;
 
-  return <div>CITY {id}</div>;
+  return (
+    <>
+      <h1>City {id}</h1>
+      <p>
+        Position {lat}, {lng}
+      </p>
+    </>
+  );
 
   // return (
   //   <div className={styles.city}>
