@@ -2,6 +2,8 @@ import { useParams, useSearchParams } from 'react-router-dom';
 import styles from './City.module.css';
 import { useCities } from '../contexts/CitiesContext';
 import { useEffect } from 'react';
+import Spinner from './Spinner';
+import BackButton from './BackButton';
 
 const URL = 'http://localhost:9000/';
 const formatDate = (date) =>
@@ -27,6 +29,7 @@ function City() {
   );
 
   const { cityName, emoji, date, notes } = currentCity;
+  if (isLoading) return <Spinner />;
 
   return (
     <div className={styles.city}>
@@ -60,7 +63,9 @@ function City() {
         </a>
       </div>
 
-      <div>{/* <ButtonBack /> */}</div>
+      <div>
+        <BackButton />
+      </div>
     </div>
   );
 }
