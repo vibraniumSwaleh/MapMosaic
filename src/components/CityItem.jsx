@@ -30,4 +30,6 @@ function CityItem({ city }) {
   );
 }
 
+// onClick={(e) => deleteCity(e, id)}
+
 export default CityItem;

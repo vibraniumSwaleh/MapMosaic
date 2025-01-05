@@ -12,7 +12,6 @@
       },
       "id": 73930385
     },
-
     {
       "cityName": "Berlin",
       "country": "Germany",
@@ -36,6 +35,102 @@
         "lng": -3.7133789062500004
       },
       "id": 17806751
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-01-05T19:22:58.974Z",
+      "notes": "Rainny.",
+      "position": {
+        "lat": "51.467696956223385",
+        "lng": "-0.13183593750000003"
+      },
+      "id": 98443196
+    },
+    {
+      "cityName": "Amsterdam",
+      "country": "Netherlands (Kingdom of the)",
+      "emoji": "🇳🇱",
+      "date": "2025-01-05T19:26:58.238Z",
+      "notes": "Cold",
+      "position": {
+        "lat": "52.36553758871974",
+        "lng": "4.9053955078125"
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Assen",
+      "country": "Netherlands (Kingdom of the)",
+      "emoji": "🇳🇱",
+      "date": "2025-01-05T19:27:18.098Z",
+      "notes": "Friendky people.",
+      "position": {
+        "lat": "53.004867897068266",
+        "lng": "6.580810546875"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Emmen",
+      "country": "Netherlands (Kingdom of the)",
+      "emoji": "🇳🇱",
+      "date": "2025-01-05T19:31:30.324Z",
+      "notes": "Delicious food",
+      "position": {
+        "lat": "52.78283114251513",
+        "lng": "6.921386718750001"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2025-01-05T19:33:24.856Z",
+      "notes": "Fine perfume",
+      "position": {
+        "lat": "48.821332549646655",
+        "lng": "2.3620605468750004"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Giza",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2025-01-05T19:34:26.680Z",
+      "notes": "Arrimatic dishes",
+      "position": {
+        "lat": "29.954934549656144",
+        "lng": "31.223144531250004"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Gaza",
+      "country": "Palestine, State of",
+      "emoji": "🇵🇸",
+      "date": "2025-01-05T19:45:45.935Z",
+      "notes": "Peacful people",
+      "position": {
+        "lat": "31.452096498983657",
+        "lng": "34.43115234375001"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Abu Ḩamad",
+      "country": "Sudan (the)",
+      "emoji": "🇸🇩",
+      "date": "2025-01-05T19:48:09.664Z",
+      "notes": "",
+      "position": {
+        "lat": "20.55050889419565",
+        "lng": "33.26660156250001"
+      },
+      "id": 98443203
     }
   ]
 }
