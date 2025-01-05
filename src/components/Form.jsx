@@ -31,6 +31,7 @@ function Form() {
 
   useEffect(
     function () {
+      if (!lat && !lng) return;
       async function fectchCityData() {
         try {
           setIsLoadingGeocoding(true);
@@ -60,6 +61,8 @@ function Form() {
     [lat, lng],
   );
 
+  if (!lat && !lng)
+    return <Message message='Please select a location on the map' />;
   if (isLoadingGeocoding) return <Spinner />;
   if (errorGeocoding) return <Message message={errorGeocoding} />;
 
@@ -77,11 +80,11 @@ function Form() {
 
       <div className={styles.row}>
         <label htmlFor='date'>When did you go to {cityName}?</label>
-        <input
+        {/* <input
           id='date'
           onChange={(e) => setDate(e.target.value)}
           value={date}
-        />
+        /> */}
       </div>
 
       <div className={styles.row}>
