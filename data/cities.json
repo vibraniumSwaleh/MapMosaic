@@ -1,30 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443195
-    },
-    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -35,18 +11,6 @@
         "lng": -3.7133789062500004
       },
       "id": 17806751
-    },
-    {
-      "cityName": "London",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "emoji": "🇬🇧",
-      "date": "2025-01-05T19:22:58.974Z",
-      "notes": "Rainny.",
-      "position": {
-        "lat": "51.467696956223385",
-        "lng": "-0.13183593750000003"
-      },
-      "id": 98443196
     },
     {
       "cityName": "Amsterdam",
@@ -71,18 +35,6 @@
         "lng": "6.580810546875"
       },
       "id": 98443198
-    },
-    {
-      "cityName": "Emmen",
-      "country": "Netherlands (Kingdom of the)",
-      "emoji": "🇳🇱",
-      "date": "2025-01-05T19:31:30.324Z",
-      "notes": "Delicious food",
-      "position": {
-        "lat": "52.78283114251513",
-        "lng": "6.921386718750001"
-      },
-      "id": 98443199
     },
     {
       "cityName": "Paris",
@@ -131,6 +83,18 @@
         "lng": "33.26660156250001"
       },
       "id": 98443203
+    },
+    {
+      "cityName": "Mogadishu",
+      "country": "Somalia",
+      "emoji": "🇸🇴",
+      "date": "2025-01-05T23:42:23.199Z",
+      "notes": "Very hot and humid.",
+      "position": {
+        "lat": "2.064982495867117",
+        "lng": "45.33508300781251"
+      },
+      "id": 98443204
     }
   ]
 }
