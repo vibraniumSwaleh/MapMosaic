@@ -1,11 +1,4 @@
-import { circle } from 'leaflet';
-import {
-  createContext,
-  useContext,
-  useEffect,
-  useReducer,
-  useState,
-} from 'react';
+import { createContext, useContext, useEffect, useReducer } from 'react';
 
 const URL = 'http://localhost:9000/';
 const CitiesContext = createContext();
@@ -29,9 +22,15 @@ function reducer(state, action) {
         ...state,
         cities: [...state.cities, action.payload],
         isLoading: false,
+        currentCity: action.payload,
       };
-    case 'cities/deleted':
-      return { ...state, cities: [...state.payload], isLoading: false };
+    case 'city/deleted':
+      return {
+        ...state,
+        cities: action.payload,
+        isLoading: false,
+        currentCity: {},
+      };
     case 'rejected':
       return { ...state, error: action.payload };
 
@@ -41,7 +40,7 @@ function reducer(state, action) {
 }
 
 function CitiesProvider({ children }) {
-  const [{ cities, isLoading, currentCity }, dispatch] = useReducer(
+  const [{ cities, isLoading, currentCity, error }, dispatch] = useReducer(
     reducer,
     initialState,
   );
@@ -66,6 +65,7 @@ function CitiesProvider({ children }) {
   }, []);
 
   async function getCity(id) {
+    if (+id === currentCity.id) return;
     try {
       dispatch({ type: 'loading' });
       const res = await fetch(`${URL}cities/${id}`);
@@ -104,8 +104,8 @@ function CitiesProvider({ children }) {
         method: 'DELETE',
       });
 
-      const cities = (cities) => cities.filter((city) => city.id !== id);
-      dispatch({ type: 'city/deleted', payload: cities });
+      const citiesAfterDeletion = cities.filter((city) => city.id !== id);
+      dispatch({ type: 'city/deleted', payload: citiesAfterDeletion });
     } catch (error) {
       dispatch({
         type: 'rejected',
@@ -123,6 +123,7 @@ function CitiesProvider({ children }) {
         currentCity,
         createCity,
         deleteCity,
+        error,
       }}
     >
       {children}
