@@ -8,7 +8,7 @@ const initialState = {
 };
 
 function reducer(state, action) {
-  switch (action.payload) {
+  switch (action.type) {
     case 'login':
       return { ...state, user: action.payload, isAuthenticated: true };
     case 'logout':
@@ -18,7 +18,7 @@ function reducer(state, action) {
   }
 }
 
-const USER = {
+const FAKE_USER = {
   name: 'Jack',
   email: 'jack@example.com',
   password: 'qwerty',
@@ -32,15 +32,17 @@ function AuthProvider({ children }) {
   );
 
   function login(email, password) {
-    if (email === USER.email && password === USER.password)
-      dispatch({ type: 'login', payload: USER });
+    console.log('AuthContext:', email);
+    console.log('AuthContext:', password);
+    if (email === FAKE_USER.email && password === FAKE_USER.password)
+      dispatch({ type: 'login', payload: FAKE_USER });
   }
   function logout() {
     dispatch({ type: 'logout' });
   }
 
   return (
-    <AuthContext.Provider value={(user, isAuthenticated, login, logout)}>
+    <AuthContext.Provider value={{ user, isAuthenticated, login, logout }}>
       {children}
     </AuthContext.Provider>
   );
@@ -49,6 +51,7 @@ function AuthProvider({ children }) {
 function useAuth() {
   const context = useContext(AuthContext);
   if (!context) throw new Error('AuthContext was used outsode of AuthProvider');
+  return context;
 }
 
 export { AuthProvider, useAuth };
