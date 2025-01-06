@@ -66,19 +66,16 @@ src/
 2. Install dependencies:
 
 ```bash
-Copy code
 npm install
 Start the development server:
 ```
 
 ```bash
-Copy code
 npm run dev
 Start the JSON Server:
 ```
 
 ```bash
-Copy code
 npm run server
 Open the application in your browser at http://localhost:5173.
 ```
@@ -108,14 +105,9 @@ Open the application in your browser at http://localhost:5173.
 - `vite`: ^4.4.5
 - `eslint`: ^8.57.1
 - `@vitejs/plugin-react`: ^4.0.3
-- Additional ESLint plugins and type definitions.
 
 ## License
 
-This project is licensed under the MIT License.
-
-## Acknowledgments
-
-Special thanks to the contributors and community for their support.
+Feel free to explore and extend the functionalities.
 
 `https://github.com/vibraniumSwaleh/worldwise.git`
