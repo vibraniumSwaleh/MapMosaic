@@ -2,12 +2,11 @@
 
 WorldWise is a React application that provides a dynamic platform for exploring cities, countries, and additional features using React Router for navigation and JSON Server for data handling.
 
-![Home Page](public/screenshots/Home.png)
-
 ## Features
 
 - **React Router Integration**: Navigate seamlessly between pages and components, including:
   - Homepage
+    ![Home Page](public/screenshots/Home.png)
   - Product Page
     ![Product Page](public/screenshots/Product.png)
   - Pricing Page
@@ -15,9 +14,13 @@ WorldWise is a React application that provides a dynamic platform for exploring 
   - Login Page
   - App layout with nested routes:
     - Cities List
+      ![Cities Page](public/screenshots/Cities.png)
     - City Details
+      ![Explore City Page](public/screenshots/Explore_Cities.png)
     - Countries List
+      ![Countries Page](public/screenshots/Countries.png)
     - Form Page
+      ![Form Page](public/screenshots/Add_Cities.png)
   - 404 Page for unmatched routes
 - **Context API**: State management for city-related data using `CitiesProvider`.
 - **Dynamic Routing**: Route parameters for city details.
