@@ -85,7 +85,7 @@ function CitiesProvider({ children }) {
         });
       }
     },
-    [currentCity],
+    [currentCity.id],
   );
 
   async function createCity(newCity) {
