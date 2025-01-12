@@ -28,7 +28,6 @@ function App() {
               path='app'
               element={
                 <ProtectedRoutes>
-                  {' '}
                   <AppLayout />
                 </ProtectedRoutes>
               }

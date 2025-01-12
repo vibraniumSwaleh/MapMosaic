@@ -37,16 +37,28 @@
       "id": 3
     },
     {
-      "cityName": "Glasgow",
+      "cityName": "Pitlochry",
       "country": "United Kingdom of Great Britain and Northern Ireland (the)",
       "emoji": "🇬🇧",
-      "date": "2025-01-06T20:14:59.014Z",
+      "date": "2025-01-12T20:35:08.562Z",
       "notes": "",
       "position": {
-        "lat": "55.85064987433714",
-        "lng": "-4.235229492187501"
+        "lat": "56.75272287205736",
+        "lng": "-3.9111328125000004"
       },
       "id": 4
+    },
+    {
+      "cityName": "Lockerbie",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-01-12T20:35:13.578Z",
+      "notes": "",
+      "position": {
+        "lat": "55.4040698270061",
+        "lng": "-3.2958984375000004"
+      },
+      "id": 5
     }
   ]
 }
