@@ -12,6 +12,7 @@ WapMosaic is a React application that provides a dynamic platform for exploring 
   - Pricing Page
     ![Pricing Page](public/screenshots/Pricing.png)
   - Login Page
+    ![Pricing Page](public/screenshots/Login.png)
   - App layout with nested routes:
     - Cities List
       ![Cities Page](public/screenshots/Cities.png)
