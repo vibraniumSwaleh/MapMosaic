@@ -1,6 +1,6 @@
-# WorldWise
+# WapMosaic
 
-WorldWise is a React application that provides a dynamic platform for exploring cities, countries, and additional features using React Router for navigation and JSON Server for data handling.
+WapMosaic is a React application that provides a dynamic platform for exploring cities, countries, and additional features using React Router for navigation and JSON Server for data handling.
 
 ## Features
 
@@ -59,8 +59,8 @@ src/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/worldwise.git
-   cd worldwise
+   git clone https://github.com/yourusername/WapMosaic.git
+   cd WapMosaic
    ```
 
 2. Install dependencies:
@@ -110,4 +110,4 @@ Open the application in your browser at http://localhost:5173.
 
 Feel free to explore and extend the functionalities.
 
-`https://github.com/vibraniumSwaleh/worldwise.git`
+`https://github.com/vibraniumSwaleh/WapMosaic.git`
