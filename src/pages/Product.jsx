@@ -11,17 +11,19 @@ export default function Product() {
           alt='person with dog overlooking mountain with sunset'
         />
         <div>
-          <h2>About WorldWide.</h2>
+          <h2>About MapMosaic.</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo est
-            dicta illum vero culpa cum quaerat architecto sapiente eius non
-            soluta, molestiae nihil laborum, placeat debitis, laboriosam at fuga
-            perspiciatis?
+            MapMosaic is a location-based app designed to inspire exploration
+            and discovery of the world&apos;s most iconic landmarks. Our mission
+            is to provide users with an immersive experience, combining
+            interactive maps, engaging content, and real-time location-based
+            information to bring the world closer to your fingertips.
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            doloribus libero sunt expedita ratione iusto, magni, id sapiente
-            sequi officiis et.
+            At MapMosaic, we envision a world where travel and exploration are
+            accessible to everyone. We believe that by leveraging technology, we
+            can bridge the gap between curiosity and discovery, making it easier
+            for people to explore and appreciate the beauty of our planet.
           </p>
         </div>
       </section>
