@@ -1,4 +1,4 @@
-# WapMosaic
+# MapMosaic
 
 MapMosaic is a React application that provides a dynamic platform for exploring cities, countries, and additional features using React Router for navigation and JSON Server for data handling.
 
