@@ -6,7 +6,7 @@ import {
   useReducer,
 } from 'react';
 
-const URL = 'http://localhost:9000/';
+const URL = 'https://67d8b0e100348dd3e2a80cb0.mockapi.io/api/v1/';
 const CitiesContext = createContext();
 
 const initialState = {
